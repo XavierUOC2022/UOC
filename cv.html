@@ -1,54 +1,88 @@
-<h1>CV (UOC)</h1>
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>UOC</title>
+  <link rel="stylesheet" href="./style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>
 
-<h2>📑 Índex</h2>
-<ul>
-    <li><a href="#idiomes">🌍 Idiomes</a></li>
-    <li><a href="#dadesPersonals">👨‍🦰 Dades personals</a></li>
-    <li><a href="#estudis">📚 Estudis</a></li>
-    <li><a href="#laboral">🏢 Laboral</a></li>
-</ul>
+  <div class="header">
+      <a href="index.html" class="logo">🛖</a>
+      <div class="header-right">
+        <a href="index.html">Portfoli</a>
+        <a class="active" href="cv.html">CV</a>
+        <a href="contacte.html">Contacte</a>
+      </div>
+  </div>
 
-<h3 id="idiomes">🌍 Idiomes</h3>
-<div>
-<table>
-    <thead>
-      <tr>
-        <th>Idioma</th>
-        <th>Nivell baix</th>
-        <th>Nivell mig</th>
-        <th>Nivell alt</th>
-        <th>Natiu</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Català</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>X</td>
-      </tr>
-      <tr>
-        <td>Espanyol</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td>X</td>
-      </tr>
-      <tr>
-        <td>Anglès</td>
-        <td></td>
-        <td></td>
-        <td>X</td>
-        <td></td>
-      </tr>
-    </tbody>
-    </table>
-</div>
+  <div style="padding: 3em; margin-bottom: 1em;" class="parallax">
+      <h1 class="titol">CV (UOC)</h1>
+  </div>
 
-<h3 id="dadesPersonals">👨‍🦰 Dades personals</h3>
-<div>
-    <table>
+  <div class="flex-container" style="margin-bottom: 1em;">
+    <div class="flex-item-3">
+      <a class="spanAficions" href="#idiomes">🌍 Idiomes</a>
+    </div>
+    <div class="flex-item-3">
+    <a class="spanAficions" href="#dadesPersonals">👨‍🦰 Dades personals</a>
+    </div>
+    <div class="flex-item-3">
+    <a class="spanAficions" href="#estudis">📚 Estudis</a>
+    </div>
+    <div class="flex-item-3">
+    <a class="spanAficions" href="#laboral">🏢 Laboral</a>
+  </div>
+  </div>
+  
+  <div>
+  <h2 class="titol" id="idiomes">🌍 Idiomes</h2>
+
+  <div class="table-wrapper">
+    <table class="fl-table">
+        <thead>
+          <tr>
+            <th>Idioma</th>
+            <th>Nivell baix</th>
+            <th>Nivell mig</th>
+            <th>Nivell alt</th>
+            <th>Natiu</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Català</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+          </tr>
+          <tr>
+            <td>Espanyol</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+          </tr>
+          <tr>
+            <td>Anglès</td>
+            <td></td>
+            <td></td>
+            <td>X</td>
+            <td></td>
+          </tr>
+        </tbody>
+        </table>
+    </div>
+  </div>
+
+<div style="background-color: #1C1C1C; padding-top: 0.5em; padding-bottom: 0.5em;">
+    <h2 class="titol" id="dadesPersonals" style="color: white;">👨‍🦰 Dades personals</h2>
+<div class="table-wrapper">
+    <table class="fl-table">
         <tbody>
         <tr>
         <td><b>Nom:</b></td>
@@ -65,10 +99,11 @@
         </tbody>
     </table>
 </div>
-
-<h3 id="estudis">📚 Estudis</h3>
+</div>
 <div>
-    <ul>
+  <h2 id="estudis" class="titol">📚 Estudis</h2>
+<div>
+    <ul class="m-ul">
         <li><b>Batxillerat tecnològic:</b></li>
         <a>Institut Joan Brudieu</a>
         <li><b>Institut Joan Brudieu:</b></li>
@@ -77,10 +112,12 @@
         <a>Escoles Universitàries Gimbernat i Tomàs Cerdà (EUG)</a>
     </ul>
 </div>
+</div>
 
-<h3 id="laboral">🏢 Laboral</h3>
+<div style="background-color: #1C1C1C; padding-top: 0.5em; padding-bottom: 0.5em; color: white;">
+  <h3 id="laboral" class="titol">🏢 Laboral</h3>
 <div>
-    <ul>
+    <ul class="m-ul">
         <li><b>Suport IT a grup CREVER (Tarragona, 2009 - 2011)</b></li>
         <a>Tasques de suport IT al grup d'investigació CREVER de la URV. Suport als usuaris, desenvolupament, 
             instal·lació i manteniment de software, gestió del servidor intern i desenvolupament de pàgines web.</a>
@@ -89,3 +126,6 @@
         <a>Desenvolupament de software tipus ERP enfocat a negocis d'hosteleria utilitzant un framework propi.</a>
     </ul>
 </div>
+</div>
+</body>
+</html>
